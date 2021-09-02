@@ -45,3 +45,34 @@ input{
     border-radius: 7px;
     text-align: center;
 }
+
+
+#Div-Resultado{
+    width: 244px;
+    height: 90px;
+    background-color: rgb(87, 141, 196);
+    margin: 22px auto;
+    border-radius: 7px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+#botoes > button{
+    margin-top: 15px;
+    width: 120px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(39, 39, 39);
+    color:white;
+    transition: 0.5s all;
+}
+
+#botoes > button:hover{
+    background-color: white;
+    color:black;
+}
+
