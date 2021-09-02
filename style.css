@@ -1,0 +1,24 @@
+*{margin:0px; padding:0px; box-sizing:border-box;}
+
+body{
+    background-color: crimson;
+}
+
+.container{
+    margin-top:100px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-superior{
+    background-color:rgb(87, 141, 196);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 1.5rem;
+}
