@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-
+    <section class="container">
         <div class="box-superior">
    
           <label id="label1">Digite a temperatura em Celsius:</label> 
@@ -16,5 +16,18 @@
           <label>Escolha em qual temperatura transformar:</label> 
    
         </div>
+
+        <div class="box-inferior">
+            <div id="botoes">
+              <button id="botao-fahrenheit" onclick="Calculo(1)">Fahrenheit</button>
+              <button id="botao-kelvin" onclick="Calculo(2)">Kelvin</button>
+           </div>
+    
+            <div id="Div-Resultado"></div>
+         </div>
+    
+      </section>
+
+      <script src="/app.js"></script>
 </body>
 </html>
