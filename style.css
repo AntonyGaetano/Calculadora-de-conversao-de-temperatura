@@ -1,7 +1,7 @@
 *{margin:0px; padding:0px; box-sizing:border-box;}
 
 body{
-    background-color: rgb(240, 238, 238);
+    background-color: rgb(147, 214, 253);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -16,6 +16,9 @@ body{
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    overflow: hidden;
 }
 
 .box-superior{
@@ -84,5 +87,6 @@ input{
 .box-img > img{
     width: 400px;
     height: 250px;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
