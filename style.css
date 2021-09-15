@@ -1,16 +1,21 @@
 *{margin:0px; padding:0px; box-sizing:border-box;}
 
 body{
-    background-color: crimson;
+    background-color: rgb(240, 238, 238);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8rem 5rem;
 }
 
 .container{
-    margin-top:100px;
+   background-color: rgb(131, 167, 233);
     text-align: center;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    border: 1px solid black;
 }
 
 .box-superior{
@@ -74,5 +79,10 @@ input{
 #botoes > button:hover{
     background-color: white;
     color:black;
+}
+
+.box-img > img{
+    width: 400px;
+    height: 250px;
 }
 
