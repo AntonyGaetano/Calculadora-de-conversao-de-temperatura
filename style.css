@@ -3,9 +3,23 @@
 body{
     background-color: rgb(147, 214, 253);
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding: 8rem 5rem;
+    padding: 4rem 5rem;
+}
+
+body > h2{
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main{
+margin-top: 4rem;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
 }
 
 .container{
@@ -74,13 +88,14 @@ input{
     padding: 10px;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(39, 39, 39);
+    background-color: transparent;
     color:white;
     transition: 0.5s all;
+    border: 1px solid white;
 }
 
 #botoes > button:hover{
-    background-color: white;
+    background-color: rgb(87, 141, 196);
     color:black;
 }
 
