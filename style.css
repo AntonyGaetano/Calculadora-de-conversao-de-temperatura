@@ -105,11 +105,21 @@ input{
     filter: drop-shadow(2px 4px 6px black);
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 930px){
    .main{
        display: flex;
        flex-direction: column;
-       gap:2.5rem;
+       gap:2.5rem; 
+    }
+
+    .container{
+        margin: 1rem 0;
+    }
 }
+
+@media screen and (max-width:560){
+    .container{
+        width: 500px;
+    }
 }
 
