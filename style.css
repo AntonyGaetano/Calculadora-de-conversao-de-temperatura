@@ -129,12 +129,53 @@ input{
 
 
     .container{
-     width: 200px;
-    
+    margin-bottom: 2rem;
+    }
+
+    .box-superior > label{
+     font-size:1rem;
+    }
+
+    .box-superior > input{
+        width: 80px;
+    }
+
+    #botoes > button{
+     width: 107px;
     }
 
     .box-img > img{
-        width: 0;
+        width:470px;
     }
 }
 
+@media screen and (max-width:360px){
+
+    body{
+    text-align: center;
+    }
+
+    body > h2{
+        margin: auto;
+    }
+
+    .container{
+    margin-bottom: 2rem;
+    }
+
+    .box-superior > label{
+     font-size:1rem;
+    }
+
+    .box-superior > input{
+        width: 80px;
+    }
+
+    #botoes > button{
+     width: 107px;
+    }
+
+    .box-img > img{
+        width:270px;
+    }
+}
