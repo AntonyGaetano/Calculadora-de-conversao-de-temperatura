@@ -117,9 +117,24 @@ input{
     }
 }
 
-@media screen and (max-width:560){
+@media screen and (max-width:560px){
+
+    body{
+    text-align: center;
+    }
+
+    body > h2{
+        margin: auto;
+    }
+
+
     .container{
-        width: 500px;
+     width: 200px;
+    
+    }
+
+    .box-img > img{
+        width: 0;
     }
 }
 
